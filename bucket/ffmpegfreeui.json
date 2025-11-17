@@ -1,20 +1,20 @@
 {
-    "version": "3.2.1",
+    "version": "3.3",
     "description": "3FUI 是 ffmpeg 在 Windows 上的轻度专业交互外壳，收录大量参数，界面美观，交互友好。此项目面向国内使用环境，让普通人也能够轻松压制视频和转换格式。",
     "homepage": "https://github.com/Lake1059/FFmpegFreeUI/blob/main/README.md",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/3.2.1/FFmpegFreeUI.ReadyToRun.x64.7z",
-            "hash": "2f5948a80f36867a8fe28659bc5c60dda80feaea142e8b389c48ec45e2bfe057"
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/3.3/FFmpegFreeUI.ReadyToRun.x64.7z",
+            "hash": "9601ed2151a000bf31b6d254f8d20dd4302e86277c174630d4b6f19069b61b81"
         },
         "32bit": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/3.2.1/FFmpegFreeUI.ReadyToRun.x86.7z",
-            "hash": "a09e168430002931384b4a283647dcd7a1933b0461da85e439d3a3b782bcccc8"
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/3.3/FFmpegFreeUI.ReadyToRun.x86.7z",
+            "hash": "9d1424977ec2849021bbee7f7d6c95844bc916b3aec8fb7c50ce15d235b3dfc8"
         },
         "arm64": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/3.2.1/FFmpegFreeUI.ReadyToRun.arm64.7z",
-            "hash": "9df74c17d3ad53f0c0554c46c890a49daf4e864364868a16a0780a0f6ab4aecc"
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/3.3/FFmpegFreeUI.ReadyToRun.arm64.7z",
+            "hash": "f22ffccd200045993ce20d923ae2a2c7f206352f217327c1375dafcee7fb2f1c"
         }
     },
     "extract_dir": "FFmpegFreeUI ReadyToRun x64",
