@@ -1,0 +1,24 @@
+{
+    "version": "0.5.1",
+    "description": "jq-like command-line tool for markdown processing",
+    "homepage": "https://github.com/harehare/mq",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/harehare/mq/blob/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/harehare/mq/releases/download/v0.5.1/mq-x86_64-pc-windows-msvc.exe#/mq.exe",
+            "hash": "a365ca8123089dc65531486ac1913a1cbb88f5f5b5812768baeab739bc263c03"
+        }
+    },
+    "bin": "mq.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/harehare/mq/releases/download/v$version/mq-x86_64-pc-windows-msvc.exe#/mq.exe"
+            }
+        }
+    }
+}
