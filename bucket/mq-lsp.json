@@ -1,5 +1,5 @@
 {
-    "version": "0.5.1",
+    "version": "0.5.3",
     "description": "Language Server Protocol (LSP) implementation for mq, a jq-like command-line tool for markdown processing.",
     "homepage": "https://github.com/harehare/mq",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/harehare/mq/releases/download/v0.5.1/mq-lsp-x86_64-pc-windows-msvc.exe#/mq-lsp.exe",
-            "hash": "39ecad06fb18d4e4f3788065cc6d69db0fdfc5cd0261aa6e43c8d8c365b198e2"
+            "url": "https://github.com/harehare/mq/releases/download/v0.5.3/mq-lsp-x86_64-pc-windows-msvc.exe#/mq-lsp.exe",
+            "hash": "0a2223aa2decacf60546a46f43b97520c63046a630f90cab60c43c9c68b33758"
         }
     },
     "bin": "mq-lsp.exe",
