@@ -4,10 +4,10 @@
     "homepage": "https://github.com/ririv/QuickOutline",
     "url": "https://github.com/ririv/QuickOutline/releases/download/2.3.0/QuickOutline-windows-2.3.0.zip",
     "hash": "5834ef9b456793100d8cf35845c4d9545313e805bd752a5e903c347a75671fde",
-    "bin": "QuickOutline.exe",
+    "bin": "QuickOutline\\QuickOutline.exe",
     "shortcuts": [
         [
-            "QuickOutline.exe",
+            "QuickOutline\\QuickOutline.exe",
             "QuickOutline"
         ]
     ],

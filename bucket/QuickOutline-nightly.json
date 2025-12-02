@@ -4,10 +4,10 @@
     "homepage": "https://github.com/ririv/QuickOutline",
     "url": "https://github.com/ririv/QuickOutline/releases/download/nightly/QuickOutline-windows-nightly-20251201-23.zip",
     "hash": "2d55c90cc797157118c8b20e8c6f22aeda016aaaca7ef7c5f1110de371c1f70a",
-    "bin": "QuickOutline.exe",
+    "bin": "QuickOutline\\QuickOutline.exe",
     "shortcuts": [
         [
-            "QuickOutline.exe",
+            "QuickOutline\\QuickOutline.exe",
             "QuickOutline"
         ]
     ],
