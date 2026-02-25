@@ -9,9 +9,7 @@
         "Rename-Item -Path \"$dir\\CapsWriter-Offline\\start_server.exe\" -NewName 'capswriter_server.exe'",
         "Rename-Item -Path \"$dir\\CapsWriter-Offline\\start_client.exe\" -NewName 'capswriter.exe'"
     ],
-    "persist": [
-        "CapsWriter-Offline\\models"
-    ],
+    "persist": "CapsWriter-Offline\\models",
     "bin": [
         "CapsWriter-Offline\\capswriter_server.exe",
         "CapsWriter-Offline\\capswriter.exe"
