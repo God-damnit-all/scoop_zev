@@ -1,0 +1,22 @@
+{
+    "version": "0.6.0",
+    "description": "A software with Go as its core, capable of simulating the sound of key presses in real-time.",
+    "homepage": "https://keytone.xuanhall.com/",
+    "license": {
+        "identifier": "GPL-3.0",
+        "url": "https://github.com/LuSrackhall/KeyTone/blob/master/LICENSE"
+    },
+    "url": "https://github.com/LuSrackhall/KeyTone/releases/download/0.6.0/KeyTone-0.6.0-win-x64.exe#/dl.7z",
+    "hash": "sha256:848a46a0d341d695d617e783ee2f5017aaab7c1c3359874af2717e142cda9974",
+    "bin": "KeyTone.exe",
+    "shortcuts": [
+        [
+            "KeyTone.exe",
+            "KeyTone"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/LuSrackhall/KeyTone/releases/download/$version/KeyTone-$version-win-x64.exe#/dl.7z"
+    }
+}
