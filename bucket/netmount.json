@@ -32,10 +32,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/VirtualHotBar/NetMount/releases/download/v$version/NetMount_$version_x64-setup.exe#/dl.7z"
+                "url": "https://github.com/VirtualHotBar/NetMount/releases/download/v$version/NetMount_$version_x64-setup.exe#/setup.exe"
             },
             "arm64": {
-                "url": "https://github.com/VirtualHotBar/NetMount/releases/download/v$version/NetMount_$version_arm64-setup.exe#/dl.7z"
+                "url": "https://github.com/VirtualHotBar/NetMount/releases/download/v$version/NetMount_$version_arm64-setup.exe#/setup.exe"
             }
         }
     }
