@@ -1,7 +1,7 @@
 {
     "version": "1.2.1",
     "description": "统一管理和挂载云存储设施 | Unified management and mounting of cloud storage facilities",
-    "homepage": "https://netmount.cn/",
+    "homepage": "https://github.com/VirtualHotBar/NetMount",
     "license": {
         "identifier": "AGPL-3.0",
         "url": "https://github.com/VirtualHotBar/NetMount/blob/main/LICENSE"
