@@ -9,6 +9,7 @@
 - **Primary Structure:**
   - `bucket/` – Application manifests (`*.json`) defining installable packages
   - `bin/` – PowerShell scripts for formatting, testing, validating, and checking manifests
+    they are just a wrapper around the main Scoop scripts
   - `scripts/` – Supporting schema and subdirectories (e.g., `neovim`)
   - `.github/` – GitHub meta (templates, workflows, ownership)
   - `.vscode/` – Editor and tooling recommendations/settings
@@ -16,32 +17,44 @@
 ## Building, Testing & Maintenance
 
 ### Validating and Formatting
+
 - **Format JSON Manifests:**
+
   ```powershell
   bin/formatjson.ps1
   ```
+
   Runs formatting on all manifests in `bucket/` using Scoop's standard formatting logic.
 
 ### Manifest Version Checking
+
 - **Check for Manifest Updates:**
+
   ```powershell
   bin/checkver.ps1
   ```
+
   Checks all manifests in `bucket/` for available upstream updates.
 
 ### Testing
+
 - **Pester Unit Tests:**
+
   ```powershell
   bin/test.ps1
   ```
+
   Runs [Pester](https://github.com/pester/Pester) PowerShell-based tests on bucket scripts and logic. Requires PowerShell 5.1+ and Pester >= 5.2.0.
 - **Import Bucket Tests:**
+
   ```powershell
   Scoop-Bucket.Tests.ps1
   ```
+
   Sources and runs Scoop's bucket-level test suite (automated validation for manifests via Scoop infrastructure).
 
 ### General Bucket Maintenance
+
 - Ensure all manifests conform to schema:
   - Bucket schema: `scripts/schema.json`
   - VSCode uses schema for live validation (see `.vscode/settings.json`)
@@ -50,6 +63,7 @@
 ## Development Conventions
 
 ### Style & Formatting
+
 - **EditorConfig:** Enforces UTF-8 charset, CRLF EOL, 4-space indentation, trimming trailing whitespace, and newline at file end (see `.editorconfig`).
 - **Git Attributes:** All text files normalized to CRLF in working tree, LF in repository (`.gitattributes`).
 - **Markdown:** Markdownlint disables MD013 (line length), and tunes MD024 (siblings-only heading collision).
@@ -57,6 +71,7 @@
   - VSCode with EditorConfig and PowerShell extensions (`.vscode/extensions.json`).
 
 ### Contribution Guidelines
+
 - Use conventional PR title: `<manifest-name[@version]|chore>: <general summary of the pull request>`
 - Open relevant issue before new PR
 - Follow [ScoopInstaller contributing guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
@@ -64,28 +79,15 @@
 - `.github/CODEOWNERS` enforces workflow ownership by ScoopInstaller maintainers.
 
 ### Script Analysis & Formatting
+
 - PowerShell scripts use OTBS preset, align property-value pairs, and ignore one-line blocks (`.vscode/settings.json`).
-
-## Usage Notes
-
-- **Add this bucket:**
-  ```powershell
-  scoop bucket add zev https://github.com/<user>/zev
-  ```
-- **Install packages:**
-  ```powershell
-  scoop install <package-name>
-  ```
-- **Validate or update manifests:**
-  Use provided scripts in `bin/` to check, update, and format manifests before submitting PRs.
 
 ## Licensing
 
 - **License:** Public Domain / [Unlicense](http://unlicense.org/)
 
 ## TODOs
+
 - Ensure all new manifests comply with latest schema (`scripts/schema.json`).
 - Document any bucket-specific scripts placed in `scripts/` and subfolders.
 - Add more automated tests if bucket logic/scripts become more complex.
-
----
