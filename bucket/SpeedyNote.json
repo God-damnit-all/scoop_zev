@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/alpha-liu-01/SpeedyNote/releases/download/v$version/SpeedyNoteInstaller_Beta_$version_amd64.exe"
+                "url": "https://github.com/alpha-liu-01/SpeedyNote/releases/download/v$version/SpeedyNoteInstaller_$version_amd64.exe"
             }
         }
     }
