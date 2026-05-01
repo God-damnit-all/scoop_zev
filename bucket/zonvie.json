@@ -1,16 +1,16 @@
 {
-    "version": "0.3.8",
+    "version": "0.3.18",
     "description": "Fast, feature-rich Neovim GUI built with Zig, native on macOS and Windows.",
     "homepage": "https://github.com/akiyosi/zonvie",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/akiyosi/zonvie/releases/download/v0.3.8/zonvie-v0.3.8-windows-x64.zip",
-            "hash": "0543f6c7810ddb449ac9a0fdc493be0b5a3f3955a8c7140ddaf2f8790f1e2809"
+            "url": "https://github.com/akiyosi/zonvie/releases/download/v0.3.18/zonvie-v0.3.18-windows-x64.zip",
+            "hash": "cd39f867c37f3e8afebb9da61b28f93e9fd425fe69e5df08c27a36c692c909b1"
         },
         "arm64": {
-            "url": "https://github.com/akiyosi/zonvie/releases/download/v0.3.8/zonvie-v0.3.8-windows-arm64.zip",
-            "hash": "e2ec0d049645d9ad93560bd226f0e103f6b437236b133f5a76c83bd748506d08"
+            "url": "https://github.com/akiyosi/zonvie/releases/download/v0.3.18/zonvie-v0.3.18-windows-arm64.zip",
+            "hash": "e5e8a2903553f9a3cdaf1d2f7530b306a8bbf78583d9fbd1b0d22e1a9b3ca654"
         }
     },
     "bin": "zonvie.exe",
